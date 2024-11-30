@@ -22,7 +22,7 @@ namespace Messenger.DAL.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Messenger.DAL.Models.User", b =>
+            modelBuilder.Entity("DAL.Models.User", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()

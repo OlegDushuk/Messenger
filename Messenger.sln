@@ -1,10 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messenger.API", "Messenger.API\Messenger.API.csproj", "{756ED503-BBFA-4958-8DC2-4ED258435861}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{756ED503-BBFA-4958-8DC2-4ED258435861}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messenger.DAL", "Messenger.DAL\Messenger.DAL.csproj", "{E8370214-5897-446A-838B-A4AFF8D24C74}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{E8370214-5897-446A-838B-A4AFF8D24C74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messenger.BLL", "Messenger.BLL\Messenger.BLL.csproj", "{EA72E7AE-0A7B-42C2-9683-C35504B539E6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{EA72E7AE-0A7B-42C2-9683-C35504B539E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

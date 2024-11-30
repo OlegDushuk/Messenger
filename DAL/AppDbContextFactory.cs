@@ -9,7 +9,7 @@ public class AppDbContextFactory : IDesignTimeDbContextFactory<AppDbContext>
   public AppDbContext CreateDbContext(string[] args)
   {
     var configuration = new ConfigurationBuilder()
-      .SetBasePath(Path.Combine(Directory.GetCurrentDirectory(), "../Messenger.API"))
+      .SetBasePath(Path.Combine(Directory.GetCurrentDirectory(), "../API"))
       .AddJsonFile("appsettings.json")
       .Build();
     
