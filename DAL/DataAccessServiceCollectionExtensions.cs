@@ -5,10 +5,11 @@ namespace Messenger.DAL;
 
 public static class DataAccessServiceCollectionExtensions
 {
-  public static IServiceCollection AddDataAccess(this IServiceCollection services, string? connectionString)
+  public static IServiceCollection AddDataAccess(this IServiceCollection services,
+    Action<DbContextOptionsBuilder>? optionsAction = null)
   {
-    services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectionString));
-    
+    services.AddDbContext<AppDbContext>(optionsAction);
+
     return services;
   }
 }
